@@ -1,0 +1,162 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .panel-container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .panel {
+    width: 20%;
+    padding: 10px;
+    background-color: #5ec78ae5;
+    border: 1px solid #014925;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007025;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #012702;
+  }
+
+  body {
+    background-image: url("Money.png");
+  }
+
+  .user-cabinet-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(2, 83, 36);
+    margin-bottom: 50px;
+  }
+  
+  .header {
+    background-color: rgba(3, 109, 8, 0.389);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    margin-top: 15px;
+    border-radius: 0px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 70px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .btn {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.15s ease-out;
+  }
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn2 {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.15s ease-out;
+  }
+  .btn2:hover {
+    transform: scale(1.05);
+  }
+  
+  .navbar__logo {
+    font-size: 22px;
+    font-family: cursive;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-container {
+    margin-top: 20px;
+  }
+  
+  .send-money-form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #79b994f6;
+    border: 1px solid #003014;
+    border-radius: 10px;
+  }
+  .send-money-form h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #003014;
+    text-transform: uppercase;
+  }
+  .send-money-form .form-row {
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  .send-money-form .form-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #003014;
+  }
+  .send-money-form .form-row input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .send-money-form .form-row input[type=text]:focus {
+    outline: none;
+    border-color: #00ff62;
+  }
+  .send-money-form button[type=submit] {
+    padding: 10px 20px;
+    background-color: #015022;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .send-money-form button[type=submit]:hover {
+    background-color: #003014;
+  }

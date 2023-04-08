@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Logout Page</title>
+    <link rel="stylesheet" href="create_transaction.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+          <nav class="navbar"><a href="index.html" class="navbar__logo">Money Transfer Service "Bird"</a></nav>
+          <nav class="nav">
+            <ul>
+              <li class="btn"><a href="wallets.html">My Wallets</a></li>
+              <li class="btn"><a href="index.html">Homepage</a></li>
+              <li class="btn"><a href="currency.html">Currency</a></li>
+  
+            </ul>
+          </nav>
+          <nav class="nav">
+            <ul>
+              <li class="btn2"><a href="login.html">Login</a></li>
+              <li class="btn2"><a href="registration.html">Registration</a></li>
+              <li class="btn2"><a href="logout.html">Logout</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <h1 class="user-cabinet-title">Transactions review</h1>
+            <div class="panel-container">
+                <div class="panel">
+                    <h2>Latest transaction</h2>
+                    <p>Date: 23/03/3023</p>
+                    <p>From wallet: Wallet 1</p>
+                    <p>Receiver's card number: *** 3120</p>
+                    <p>Transaction type: money transafer</p>
+                    <p>Currency: USD</p>
+                    <p>Amount: $500</p>
+                    <p>Balance before: $1 500</p>
+                    <p>Balance after: $1000</p>
+                    <p>Comment: operation was succesfull</p>
+                    <button> <b><a href="wallets.html">See all transactions</a></b> </button>
+                    
+                </div>
+            <div class="main-container">
+                <form class="send-money-form">
+                    <h2>Create transaction</h2>
+
+                    <div class="form-row">
+                        <label for="sender-card"><b>Wallet number:</b></label>
+                        <input type="text" id="sender-card" name="sender-card">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="receiver-card"><b>Receiver's Card Number:</b></label>
+                        <input type="text" id="receiver-card" name="receiver-card">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="amount"><b>Amount:</b></label>
+                        <input type="text" id="amount" name="amount">
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Submit request</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+
+
+        </main>
+    </div>
+</body>
+
+</html>
